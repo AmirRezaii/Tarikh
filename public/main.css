@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url('http://fonts.googleapis.com/earlyaccess/droidarabickufi.css');
 
 body {
     background-image: url('./moroccan-flower.png'); 
@@ -51,7 +51,7 @@ nav ul {
     background: white;
     font-size: 18px;
     max-width: 500px;
-    height: 70%;
+    height: 450px;
     padding: 5px;
     padding-top: 0;
     margin: 20px auto;
