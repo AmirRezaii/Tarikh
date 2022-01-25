@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="main.css">
+<header>
+    <nav>
+        <a href="/" class="logo">تاریخ</a>
+        <ul>
+            <li><a href="/create">ایجاد پست</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <% posts.slice().reverse().forEach(post => { %>
+        <div class="post">
+            <h3><%= post.title %></h3>
+            <p><%= post.description %></p>
+            <h5><%= post.author %></h5>
+            <label><%= post.date %></label>
+            <br>
+            <a href="/post<%= post._id %>" class="btn">ادامه مطلب</a>
+        </div>
+    <% }) %> 
+</main>
