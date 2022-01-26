@@ -50,6 +50,7 @@ nav ul {
 .post {
     background: white;
     font-size: 18px;
+    width: 90%;
     max-width: 500px;
     height: 450px;
     padding: 5px;
