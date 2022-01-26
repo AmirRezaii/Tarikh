@@ -87,6 +87,7 @@ nav ul {
 
 .btn {
     margin: 10px;
+    margin-top: 0;
     text-decoration: none;
   align-items: center;
   background-color: #0A66C2;
