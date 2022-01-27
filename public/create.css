@@ -52,20 +52,48 @@ main {
   padding: 10px;
   margin: 10px;
 }
-
+main label {
+  font-size: 18px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}
 main input {
   width: 50%;
+  height: 30px;
   border: none;
   border-radius: 1px;
   margin: 10px;
+  outline: none;
+  padding: 5px;
+  padding-right: 15px;
+  border-radius: 20px;
 }
+main input:focus {
+  box-shadow: 0px 0px 20px 1px #888888;
+}
+main input:hover {
+  box-shadow: 0px 0px 20px 1px #888888;
+}
+
 main .content {
   width: 99%;
   height: 350px;
   border: none;
-  border-radius: 1px;
+  border-radius: 20px;
   margin: 5px;
-
+  margin-bottom: 20px;
+  outline: none;
+  padding: 10px;
+  padding-right: 20px;
+}
+main .content:focus {
+  box-shadow: 0px 0px 20px 1px #888888;
+}
+main .content:hover {
+  box-shadow: 0px 0px 20px 1px #888888;
 }
 main .desc {
   width: 50%;
@@ -73,6 +101,16 @@ main .desc {
   border: none;
   border-radius: 1px;
   margin: 10px;
+  outline: none;
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 18px;
+}
+main .desc:focus {
+  box-shadow: 0px 0px 20px 1px #888888;
+}
+main .desc:hover {
+  box-shadow: 0px 0px 20px 1px #888888;
 }
 
 /* CSS */
