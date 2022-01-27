@@ -1,31 +1,31 @@
 @import url('https://v1.fontapi.ir/css/Shabnam');
 
 body {
-    background-color: #f8ceec;
+  background-color: #f8ceec;
 background-image: linear-gradient(315deg, #f8ceec 0%, #a88beb 74%); 
-    margin: 0;
-    padding: 0;
-    font-family: 'Shabnam', sans-serif;
-    direction: rtl;
+  margin: 0;
+  padding: 0;
+  font-family: 'Shabnam', sans-serif;
+  direction: rtl;
 }
 
 nav {
-    height: 60px;
-    background-color: #6F39B6;
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    box-shadow: 0 0 10px 1px;
+  height: 60px;
+  background-color: #6F39B6;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  box-shadow: 0 0 10px 1px;
   }
 
   /* Style the links inside the navigation bar */
 nav a {
-    height: 100%;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 20px;
+  height: 100%;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
   
   /* Change the color of links on hover */
@@ -40,24 +40,39 @@ nav a.active {
   color: white;
 }
 nav .logo {
-    display: inline-block;
+  display: inline-block;
 }
 nav ul {
-    display: inline-block;
-    list-style: none;
-    height: 100%;
+  display: inline-block;
+  list-style: none;
+  height: 100%;
 }
 
 main {
-    padding: 10px;
-    margin: 10px;
+  padding: 10px;
+  margin: 10px;
 }
+
 main input {
-    width: 50%;
+  width: 50%;
+  border: none;
+  border-radius: 1px;
+  margin: 10px;
 }
 main .content {
-    width: 100%;
-    height: 350px;
+  width: 99%;
+  height: 350px;
+  border: none;
+  border-radius: 1px;
+  margin: 5px;
+
+}
+main .desc {
+  width: 50%;
+  height: 100px;
+  border: none;
+  border-radius: 1px;
+  margin: 10px;
 }
 
 /* CSS */
